@@ -1,0 +1,16 @@
+.detail{
+    width: 200px;
+    height: 350px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    filter: drop-shadow(0 0 30px #333);
+    margin: 0 auto;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+li{
+    list-style: none !important;
+
+}
+}

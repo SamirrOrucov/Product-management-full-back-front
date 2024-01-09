@@ -1,0 +1,36 @@
+.footerContainer {
+  max-width: 100vw;
+  height: 78px;
+  background-color: orangered;
+  .footer {
+    max-width: 40%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    // justify-content: space-between;
+    font-size: 24px;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+
+    a {
+      cursor: pointer;
+      transition: 300ms;
+      color: white;
+      &:hover {
+        color: rgb(90, 31, 167);
+      }
+    }
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.mainlayout{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 200px;
+}
